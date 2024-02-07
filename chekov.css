@@ -18,14 +18,26 @@
 .DUNYASHA{
     clor:  #6a0572;
 }
-table,th,td{
-    color:rgb(248, 1, 1);
-    border: 2px solid rgb(23, 156, 132);
-    border-collapse: collapse;
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
-td{
-    text-align: left;
+table{
+    background-color:burlywood;
+    border-color: pink;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
-th,td{
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+tr:nth-child(even) {
+    background-color: #eeee;}
 
 }
