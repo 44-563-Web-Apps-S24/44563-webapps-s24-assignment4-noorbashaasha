@@ -5,6 +5,8 @@
 .direction{
     font-size: 15px;
     color: rgb(255, 3, 3);
+    background-color: antiquewhite;
+    transition: background-color 0.3s; color 0.3s;
 }
 .direction:hover{
     background-color: lightblue;
