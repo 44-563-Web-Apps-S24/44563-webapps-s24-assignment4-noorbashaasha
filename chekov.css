@@ -1,0 +1,29 @@
+.speech{
+    font-size: 19px;
+    color: rgb(16, 250, 3);
+}
+.direction{
+    font-size: 15px;
+    color: rgb(255, 3, 3);
+}
+.direction:hover{
+    background-color: lightblue;
+    clor: black;
+}
+.LOPAKHIN{
+    color: #c2f11b;
+}
+.DUNYASHA{
+    clor:  #6a0572;
+}
+table,th,td{
+    color:rgb(248, 1, 1);
+    border: 2px solid rgb(23, 156, 132);
+    border-collapse: collapse;
+}
+td{
+    text-align: left;
+}
+th,td{
+
+}
