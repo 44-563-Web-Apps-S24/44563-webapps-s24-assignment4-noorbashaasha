@@ -55,12 +55,12 @@ tr:nth-child(even) {
 .bottom-navbar {
     background-color: #F0E8E0; /* Light pastel brown */
     color: #444; /* Dark gray text color */
-    text-align: left;
+    text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 100px 0; /* Padding for spacing */
+    padding: 20px 0; /* Padding for spacing */
 }
 
 .bottom-navbar a {
