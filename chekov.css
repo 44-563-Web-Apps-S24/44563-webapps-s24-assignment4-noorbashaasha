@@ -59,7 +59,7 @@ tr:nth-child(even) {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     padding: 20px 0; /* Padding for spacing */
 }
 
