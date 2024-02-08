@@ -40,4 +40,14 @@ table {
 tr:nth-child(even) {
     background-color: #eeee;}
 
+
+.LOPAKHIN {
+    border: 2px solid #ffcc00; /* Interesting border */
+    padding: 10px;
+    display: inline-block;
+}
+
+.LOPAKHIN:hover {
+    box-shadow: 0 0 10px #ff00ff; /* Interesting shadow with blur */
+    border-color: #00ffff; /* Change border color on hover */
 }
