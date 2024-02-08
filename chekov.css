@@ -53,23 +53,37 @@ tr:nth-child(even) {
 }
 
 .bottom-navbar {
-    background-color: #333;
+    background-color: #4CAF50; /* Dark green */
     color: white;
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 15px 0; /* Add padding for better spacing */
 }
 
-.bottom-navbar a {
+.bottom-navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-navbar nav ul li {
+    display: inline;
+    margin: 0 20px; /* Increase margin for more spacing between links */
+}
+
+.bottom-navbar nav ul li a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    font-size: 18px; /* Increase font size for better readability */
+    font-weight: bold; /* Make text bold */
+    transition: all 0.3s ease; /* Add smooth transition effect */
 }
 
-.bottom-navbar a:hover {
+.bottom-navbar nav ul li a:hover {
+    color: #FFEB3B; /* Yellow on hover */
     text-decoration: underline;
 }
 
