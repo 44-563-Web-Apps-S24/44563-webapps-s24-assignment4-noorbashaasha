@@ -53,37 +53,26 @@ tr:nth-child(even) {
 }
 
 .bottom-navbar {
-    background-color: #4CAF50; /* Dark green */
-    color: white;
+    background-color: #F0E8E0; /* Light pastel brown */
+    color: #444; /* Dark gray text color */
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 15px 0; /* Add padding for better spacing */
+    padding: 20px 0; /* Padding for spacing */
 }
 
-.bottom-navbar nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.bottom-navbar nav ul li {
-    display: inline;
-    margin: 0 20px; /* Increase margin for more spacing between links */
-}
-
-.bottom-navbar nav ul li a {
-    color: white;
+.bottom-navbar a {
+    color: #444;
     text-decoration: none;
-    font-size: 18px; /* Increase font size for better readability */
-    font-weight: bold; /* Make text bold */
-    transition: all 0.3s ease; /* Add smooth transition effect */
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px; /* Margin between links */
+    transition: all 0.3s ease; /* Smooth transition */
 }
 
-.bottom-navbar nav ul li a:hover {
-    color: #FFEB3B; /* Yellow on hover */
-    text-decoration: underline;
+.bottom-navbar a:hover {
+    color: #F9D5E5; /* Light pastel pink on hover */
 }
 
